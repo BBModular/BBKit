@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EABE44737E3B8BF06D64135 /* libPods-BBKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF163E7FA5593900CCAC6BF /* libPods-BBKitDemo.a */; };
+		5E4BFC32D4539B0E3FEF73AD /* Pods_BBKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017CB58EB51D4273C05D0277 /* Pods_BBKitDemo.framework */; };
 		70A0B0441EC402CE000DF09E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A0B0431EC402CE000DF09E /* main.m */; };
 		70A0B0471EC402CE000DF09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A0B0461EC402CE000DF09E /* AppDelegate.m */; };
 		70A0B04A1EC402CE000DF09E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A0B0491EC402CE000DF09E /* ViewController.m */; };
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017CB58EB51D4273C05D0277 /* Pods_BBKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0D841BAEA545FE6F52649B /* Pods-BBKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBKitDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BBKitDemo/Pods-BBKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70A0B03F1EC402CE000DF09E /* BBKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A0B0431EC402CE000DF09E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		70A0B0671EC402CE000DF09E /* BBKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBKitDemoUITests.m; sourceTree = "<group>"; };
 		70A0B0691EC402CE000DF09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98BD59353BD98A512417BFD0 /* Pods-BBKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBKitDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BBKitDemo/Pods-BBKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		ADF163E7FA5593900CCAC6BF /* libPods-BBKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EABE44737E3B8BF06D64135 /* libPods-BBKitDemo.a in Frameworks */,
+				5E4BFC32D4539B0E3FEF73AD /* Pods_BBKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 		E8BF80D809C80295B2E1B388 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADF163E7FA5593900CCAC6BF /* libPods-BBKitDemo.a */,
+				017CB58EB51D4273C05D0277 /* Pods_BBKitDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

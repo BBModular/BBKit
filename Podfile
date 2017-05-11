@@ -1,7 +1,7 @@
 workspace 'BBKit.xcworkspace'
 
 platform :ios, '8.0'
-#use_frameworks!
+use_frameworks!
 target 'BBKitDemo' do
     pod 'BBKit', :path => './'
     project 'BBKitDemo/BBKitDemo.xcodeproj'
